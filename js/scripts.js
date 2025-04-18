@@ -83,12 +83,12 @@ particlesJS("particles-js", {
 
 // Typewriter Effect
 const phrases = [
-    "interfaces intuitivas",
-    "experiências digitais",
-    "soluções criativas",
-    "aplicações web",
-    "sistemas escaláveis",
-    "designs impactantes"
+    "Interfaces Intuitivas",
+    "Experiências Digitais",
+    "Soluções Criativas",
+    "Aplicações Web",
+    "Sistemas Escaláveis",
+    "Designs Impactantes"
 ];
 
 let phraseIndex = 0;
