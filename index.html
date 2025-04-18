@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rafael Orlando | Portfólio</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./img/favicon.png" type="image/png">
+    </head>
+    <body>
+        <div id="particles-js"></div>
+
+        <div class="scroll-dots">
+            <div class="dot active" data-section="hero"></div>
+            <div class="dot" data-section="projects"></div>
+            <div class="dot" data-section="skills"></div>
+            <div class="dot" data-section="contact"></div>
+        </div>
+
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <h1>Rafael Orlando</h1>
+
+                <div class="typewriter-container">
+                    <span class="typewriter" id="typewriter"></span>
+                    <span class="typewriter-cursor"></span>
+                </div>
+
+                <p>Estudante de ADS e designer em transição para o desenvolvimento. Com influência do meu pai (programador Java), descobri minha paixão por tecnologia aos 15 anos com Python. Minha trajetória combina experiência prática em redes e desenvolvimento de sistemas com projetos reais como um app de notícias escolar. Atualmente, busco unir minhas habilidades em design e programação para criar soluções digitais completas e impactantes.</p>
+
+                <div class="btn-container">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        <div style="margin-left: 12px;">Ver Projetos</div>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i>
+                        <div style="margin-left: 12px;">Contato</div>
+                    </a>
+                </div>
+
+                <a href="#projects" class="scroll-hint">
+                    <span>Explore meu trabalho</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projetos Profissionais</h2>
+
+                <div class="projects-grid">
+                    <!-- SGV -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="./img/sgv.png"
+                                alt="Sistema de Gestão de Validade">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de Gestão de
+                                Validade (SGV)</h3>
+                            <p class="project-description">Sistema desenvolvido
+                                para a Lev Truckcenter para controle de
+                                certificados homologados pelo Inmetro.</p>
+
+                            <ul class="project-features">
+                                <li>Gestão completa de clientes, veículos e
+                                    certificados</li>
+                                <li>Notificações automáticas por SMS, email e
+                                    WhatsApp</li>
+                                <li>Relatórios personalizados</li>
+                                <li>Controle de acesso por usuários</li>
+                            </ul>
+
+                            <div class="project-tags">
+                                <span class="tag">Django</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">Scheduler</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#"><i
+                                        class="fab fa-linkedin-in"></i>
+                                    Ver Descrição</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DM News -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="./img/dmnews.png"
+                                alt="DM News App">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">DM News</h3>
+                            <p class="project-description">Aplicativo para
+                                comunicação escolar desenvolvido para a EETEPA
+                                Deodoro de Mendonça.</p>
+
+                            <ul class="project-features">
+                                <li>Acesso a informações acadêmicas</li>
+                                <li>Notícias em tempo real</li>
+                                <li>Interface responsiva e amigável</li>
+                                <li>API REST com Django</li>
+                            </ul>
+
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Dart</span>
+                                <span class="tag">Django REST</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=br.com.dmnews"
+                                    target="_blank"><i
+                                        class="fab fa-google-play"></i> Play
+                                    Store</a>
+                                <a
+                                    href="https://www.instagram.com/dm.news_oficial/"><i
+                                        class="fab fa-instagram"></i>
+                                    Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SGP -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img
+                                src="./img/sgp.png"
+                                alt="Sistema de Gerenciamento de Pendências">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de Gerenciamento
+                                de Pendências</h3>
+                            <p class="project-description">Sistema desenvolvido
+                                para o setor de GCDHC DETRAN-PA para gestão de
+                                processos
+                                internos.</p>
+
+                            <ul class="project-features">
+                                <li>Cadastro e consulta de pendências</li>
+                                <li>Histórico completo de ações</li>
+                                <li>Estatísticas em tempo real</li>
+                                <li>Controle de acesso seguro</li>
+                            </ul>
+
+                            <div class="project-tags">
+                                <span class="tag">Django</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">OAuth</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#"><i
+                                        class="fab fa-github"></i>
+                                    Ver Git Hub</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Minhas Habilidades</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-paint-brush"></i> Design</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">UI/UX
+                                        Design</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Adobe
+                                        Illustrator</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Adobe
+                                        Photoshop</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Adobe
+                                        After effect</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Design
+                                        System</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div
+                                        class="skill-name">Prototipagem</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Front-end</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">HTML/CSS</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">JavaScript</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 62%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Flutter</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div
+                                        class="skill-name">Responsividade</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div
+                                        class="skill-name">Wordpress</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 55%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Back-end</h3>
+                        <ul class="skill-list">
+
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Python</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Django</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Bancos de
+                                        Dados</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">Java/Spring</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <div>
+                                    <div class="skill-name">APIs REST</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress"
+                                            style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Vamos Conversar</h2>
+                    <p>Estou sempre aberta a novas oportunidades e
+                        colaborações
+                        criativas. Se você tem um projeto em mente
+                        ou quer
+                        discutir ideias, entre em contato!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rafael.souorlan14@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+55 (91) 98229-7971</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Gaspar, Santa Catarina</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://github.com/rafaelorland"><i
+                                class="fab fa-github"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/rafael-orlando-tavares"><i
+                                class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+                </div>
+
+                <form class="contact-form" id="whatsappForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name"
+                            class="form-control"
+                            placeholder="Seu nome completo"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email"
+                            class="form-control"
+                            placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject"
+                            class="form-control"
+                            placeholder="Sobre o que quer conversar?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" class="form-control"
+                            placeholder="Descreva seu projeto ou dúvida..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Enviar
+                        Mensagem
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Rafael Orlando. Todos os direitos
+                    reservados.</p>
+            </div>
+        </footer>
+
+        <!--
+        Author : Vincent Garreau  - vincentgarreau.com
+        MIT license: http://opensource.org/licenses/MIT
+        Demo / Generator : vincentgarreau.com/particles.js
+        GitHub : github.com/VincentGarreau/particles.js
+        How to use? : Check the GitHub README
+        v2.0.0
+        -->
+        <script
+            src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
