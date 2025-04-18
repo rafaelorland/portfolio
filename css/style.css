@@ -15,6 +15,11 @@
     font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+::selection{
+    background-color: var(--primary);
+    color: var(--light);
+}
+
 body {
     background-color: var(--dark);
     color: var(--light);
